@@ -2,7 +2,7 @@ SELECT TNAME, TABTYPE, CLUSTERID  FROM TAB;
 
 SELECT USERNAME FROM SYS.ALL_USERS;
 
---------------------------DATA CREATING SECTION---------------------------------
+--------------------------DATA GENERATING SECTION-------------------------------
 
 --CREATE TABLE SUPPLIERS(
 --    SUPPLIER_ID VARCHAR(10),
@@ -62,6 +62,7 @@ SELECT SUPPLIERS.SUPPLIER_ID SUPPLIER_ID,
     
     
 --------------------SUB QUERIES-------------------------------------------------
+
 --CREATE TABLE STUDENT(
 --    STUDENTID VARCHAR(4),
 --    NAME VARCHAR(10),
