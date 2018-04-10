@@ -10,5 +10,14 @@ In this repository I will be publishing the SQL scripts I used when cracking the
 
 ## Use SQL-Developer IDE from Oracle for productivity and code management.
 
-#### load_data.sql contains sample data to play around with Oracel SQL Server.
+## File descriptions:
+
+1. **load_data.sql**:
+      contains sample data to play around with Oracel SQL Server.
 Credits: Oracle load_data.sql file from downloads.oracle.com
+
+2. **joins.sql**:
+      five differenct types of joins.
+      
+3. **University_Student_Management.sql**:
+      University course management schemas with sample data. Some playaround is also included in the end of the file.
