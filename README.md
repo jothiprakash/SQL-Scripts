@@ -9,3 +9,6 @@ In this repository I will be publishing the SQL scripts I used when cracking the
 **Don't worry about the data generation part. It is included too.**
 
 ## Use SQL-Developer IDE from Oracle for productivity and code management.
+
+#### load_data.sql contains sample data to play around with Oracel SQL Server.
+Credits: Oracle load_data.sql file from downloads.oracle.com
