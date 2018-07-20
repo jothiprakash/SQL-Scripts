@@ -21,3 +21,6 @@ Credits: Oracle load_data.sql file from downloads.oracle.com
       
 3. **University_Student_Management.sql**:
       University course management schemas with sample data. Some playaround is also included in the end of the file.
+
+## Update 20-07-2018
+Will be updating this repo with PL/SQL commands.
