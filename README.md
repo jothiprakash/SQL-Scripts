@@ -22,5 +22,9 @@ Credits: Oracle load_data.sql file from downloads.oracle.com
 3. **University_Student_Management.sql**:
       University course management schemas with sample data. Some playaround is also included in the end of the file.
 
-## Update 20-07-2018
+### Update 20-07-2018
 Will be updating this repo with PL/SQL commands.
+Anonymous blocks was updated. [What is Anonymous block in Oracle?](https://www.google.co.in/search?q=what+is+anonymous+block+in+oracle&oq=what+is+anonymous+blo&aqs=chrome.0.0j69i57j0l4.6157j1j7&sourceid=chrome&ie=UTF-8)
+
+### Update: 21/07/2018
+Datatypes in Oracle created. [Datatypes in Oracle](https://docs.oracle.com/cd/B28359_01/appdev.111/b28370/datatypes.htm#i10924)
