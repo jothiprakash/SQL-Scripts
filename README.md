@@ -36,3 +36,5 @@ Control Structures in Oracle PL/SQL Created. [Control structures in Oracle PL/SQ
 
 ### Update: 23/07/2018
 Cursors in Oracle PL/SQL created. [Cursors in Oracle PL/SQL](https://www.tutorialspoint.com/plsql/plsql_cursors.htm)
+
+Exceptions in Oracle PL/SQL created. [Exceptions in Oracle PL/SQL](https://docs.oracle.com/cd/E11882_01/timesten.112/e21639/exceptions.htm#TTPLS191)
