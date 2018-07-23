@@ -29,3 +29,4 @@ Anonymous blocks in PL/SQL created. [What is Anonymous block in Oracle?](https:/
 ### Update: 21/07/2018
 Datatypes in Oracle PL/SQL created. [Datatypes in Oracle](https://docs.oracle.com/cd/B28359_01/appdev.111/b28370/datatypes.htm#i10924)
 Loops in Oracle PL/SQL Created. [Loops in Oracle PL/SQL](https://docs.oracle.com/cd/B28359_01/appdev.111/b28370/loop_statement.htm#LNPLS01328)
+Control Structures in Oracle PL/SQL Created. [Control structures in Oracle PL/SQL](https://docs.oracle.com/cd/B19306_01/appdev.102/b14261/controlstructures.htm)
