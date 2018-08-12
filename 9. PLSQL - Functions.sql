@@ -1,0 +1,43 @@
+--FUNCTIONS
+CREATE OR REPLACE
+FUNCTION get_tier RETURN NUMBER AS
+    l_salary NUMBER := 50000;
+    l_return NUMBER;
+BEGIN
+    IF l_salary < 40000 THEN
+        l_return := 1;
+    ELSIF l_salary < 60000 THEN
+        l_return := 2;
+    ELSE
+        l_return := 3;
+    END IF;
+    DBMS_OUTPUT.PUT_LINE('Finished Successfully l_return ' || l_return);
+    RETURN l_return;
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE(SYS.DBMS_UTILITY.FORMAT_ERROR_STACK);
+        DBMS_OUTPUT.PUT_LINE(SYS.DBMS_UTILITY.FORMAT_ERROR_BACKTRACE);
+        RAISE;
+END get_tier;
+
+--ALTER FUNCTIONS get_tier COMPILE DEBUG;
+
+--WAYS TO RUN FUNCTIONS
+--1. USING ANONYMOUS BLOCK
+DECLARE
+  l_tier NUMBER;
+BEGIN
+  l_tier := GET_TIER;
+  DBMS_OUTPUT.PUT_LINE('l_tier is ' || l_tier);
+END;
+
+--2. USING IN SQL COMMAND
+SELECT GET_TIER FROM DUAL;
+
+--3. USING BIND VARIABLES TO HOLD RESULTS OF THE FUNCTION
+VARIABLE l_tier NUMBER;
+
+EXEC    : l_tier := GET_TIER;
+EXECUTE : l_tier := GET_TIER;
+
+--PRINT   : l_tier

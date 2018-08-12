@@ -43,3 +43,6 @@ Debugging PL/SQL using Oracle SQL Developer. [Debugging using SQL Developer](htt
 
 ### Update: 25/07/2018
 Procedures in Oracle PL/SQL created. [Procedures in PL/SQL](https://docs.oracle.com/cd/B28359_01/appdev.111/b28370/subprograms.htm#CHDDCFHD)
+
+### Update: 08/08/2018
+Functions in Oracle PL/SQL created. [Functions in PL/SQL](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_5009.htm)
